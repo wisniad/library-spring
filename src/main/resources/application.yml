@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SecurityTest
+    username: postgres
+    password: damian1
+    driver-class-name: org.postgresql.Driver
+
+  jpa.properties.hibernate.temp.use_jdbc_metadata_defaults:
+  jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true
+
+  jpa.hibernate.ddl-auto: create-drop
